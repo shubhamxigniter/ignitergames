@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to right, #ff7eb3, #ff758c, #ff6b6b);
+}
+
+#head{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+#gamebox{
+    flex-wrap: wrap;
+    /* background-color: rgb(240, 113, 81); */
+    background: linear-gradient(to right, #ff7eb3, #ff758c, #ff6b6b);
+    width: 100%;
+    
+}
+button{
+    padding: 20px 60px;
+}
+#marq{
+ background-color: black;
+}
+
+#ROCK{
+    background-image: url('images rps/rock.png');
+    color: azure;
+    background-size: cover;
+}
+
+#PAPER{
+    background-image: url('images rps/paper.png');
+    color: azure;
+    background-size: cover;
+}
+
+#SCISSORS{
+    background-image: url('images rps/scissors.png');
+    color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+button:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,246 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    margin-left: 220px;
+    background-color: #121212;
+    color: white;
+    
+}
+
+/* navbar */
+
+#navbar{
+ background-color: #333;
+ color: rgb(255, 255, 255);
+ list-style-type: none;
+ justify-content: center;
+ display: flex;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+#navbar a{
+    text-decoration:none;
+    color: aqua;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    transition: background-color 0.5s;
+}
+
+/* left-navbar */
+#left-navbar{
+  position: fixed;
+  top: 0%;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #00004d;
+  color: white;
+  padding-top: 200px;   
+  z-index: 1000;       
+}
+
+#left-navbar ul {
+    padding: 0;
+    margin: 0;
+}
+#left-navbar li {
+    padding: 15px;
+    text-align: left;
+}
+
+#left-navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+
+/* quizes */
+
+#quizes a{
+    text-decoration:none;
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+    text-align: center;
+    transition: background-color 0.5s;   
+
+}
+
+#quizes{
+    display: flex;
+    margin-bottom: 90px;
+    margin-inline-start: 20px; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    padding-right: 2px;
+}
+#reasoning,  #english,  #gk{
+    background-color: red;
+    padding: 20px;
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 20px;
+ }
+ #rps{
+    background-color: red;
+    padding: 20px;
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 20px;
+    text-size-adjust: 10px;
+ }
+ 
+ #reasoning{
+    background-color: yellow;
+ }
+
+ #english{
+    background-color: blue;
+ }
+
+ #gk{
+    background-color: pink;
+ }
+ 
+
+ul li:hover{
+    background-color: #3b8b9a;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+
+/* progress report */
+#screen{
+    padding: 0%;
+    margin: 0%;
+    margin-left: 20px;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 0.6cm solid rgb(27, 43, 53);
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#footer{
+
+    margin-top: 20px;
+}
+
+
+/* chat bot */
+#chat-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#chatbox {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    flex-direction: column;
+}
+
+#chatbox-header {
+    background-color: rgb(0, 183, 255);
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#chatbox-body {
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+#chat-messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.message.user {
+    align-self: flex-end;
+    background-color: #f0f0f0;
+}
+
+.message.bot {
+    align-self: flex-start;
+    background-color: rgb(0, 76, 255);
+    color: white;
+}
+
+#chatbox-footer {
+    padding: 10px;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: rgb(3, 89, 248);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

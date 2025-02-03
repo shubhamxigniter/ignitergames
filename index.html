@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <h1>  THE IGNITER GAMES </h1>
+
+    <ul id="navbar">
+         <li> <a href="#"> ALL GAMES </a></li>
+         <li> <a href="#"> NEW GAMES </a></li>
+         <li> <a href="#"> UPCOMING GAMES </a></li>
+         <li> <a href="#">  HELP DESK</a></li>
+    </ul>
+
+    <ul id="left-navbar">
+        <li><a href ="home.html"> HOME </a></li>
+        <li><a href ="home.html"> DASHBOARD </a></li>
+        <li><a href ="home.html"> SETTING </a></li>
+        <li><a href ="home.html"> PROFILE </a></li>
+    </ul>
+   
+<div id="quizes">
+    <a class="gamessec" id="rps" href="rps.html">ROCK PAPER & <br> SCISSORS</a>
+    <a class="gamessec" id="reasoning" href="thememorygame.html"> THE MEMORY GAME </a>
+    <a class="gamessec" id="english"href="#"> WHAKE-A-MOLE </a>
+    <a class="gamessec" id="gk"href="#"><marquee behavior="alternate">COMING SOON</marquee></a>
+</div>
+
+
+<div id="screen"> ADDS HERE</div>
+
+ <!-- Chat Logo -->
+ <div id="chat-logo" onclick="toggleChatbox()">
+    💬
+</div>
+
+<!-- Chatbox -->
+<div id="chatbox">
+    <div id="chatbox-header">
+        Chat Support
+    </div>
+    <div id="chatbox-body">
+        <div id="chat-messages"></div>
+    </div>
+    <div id="chatbox-footer">
+        <input type="text" id="chat-input" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px;">
+        <p>© 2025 THE IGNITER GAMES. All rights reserved.</p>
+        <p>
+            <a href="contact.html" style="color: white; margin: 0 10px;">contact us</a> |
+            <a href="#" style="color: white; margin: 0 10px;">our sicial handles</a> |
+            <a href="#" style="color: white; margin: 0 10px;">help us improve</a> |
+            <a href="#" style="color: white; margin: 0 10px;">report glitches</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
