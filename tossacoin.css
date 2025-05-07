@@ -1,0 +1,36 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+#coins{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: rgb(38, 211, 153);
+}
+#tossButton{
+    background-color: #6722bc; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#tossButton:hover{
+    background-color: #f91a1a;
+}
+#result{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
