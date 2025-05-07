@@ -6,7 +6,7 @@ tossbutton.addEventListener("click", tossCoin);
 function tossCoin() {
   const randomNumber = Math.random();
   if (randomNumber < 0.5) {
-    result.innerHTML = "Loaeding...";
+    result.innerHTML = "Loading...";
     setTimeout(() => {
       result.innerHTML = "Heads";
     }, 1000);
