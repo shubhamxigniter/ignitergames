@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="randomorder.css">
+</head>
+<body>
+ <h1>PLAYING ORDER SELECTOR</h1>
+ <div class="container">  
+
+
+ <div class="small-container">  <input type="number" id="arrayLengthInput" placeholder="how many players?" >
+  <br><button onclick="ArrayLengthSet()" id="sizeButton">OK</button> </div> 
+
+
+<div class="small-container">  <input type="text" id="userarrayinput" placeholder="Enter the names here">
+  <br><button onclick="addtoarray()" id="addbutton">add to the list</button></div>
+
+
+<div class="small-container">  <button onclick="displayRandom()" id="displayButton">PLAYING ORDER</button></div>
+
+
+<div id="resultdisplay">    <ul id="displayArr">here will be the display</ul>
+    <ul id ="displayRandom2"></ul></div>
+
+ </div>    
+    <script src="randomorder.js"></script>
+</body>
+</html>
