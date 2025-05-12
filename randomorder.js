@@ -79,7 +79,7 @@ function displayRandom(){
   document.getElementById("displayButton").disabled = true;
 for(let i = 0; i<suffled.length; i++){
     let li = document.createElement('li');
-    li.textContent = `${i+1}: ${suffled[i]}`;
+    li.textContent = `${'is '}: ${suffled[i]}`;
     list.appendChild(li);
 }
 }
